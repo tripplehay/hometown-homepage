@@ -10,15 +10,95 @@ DARK BLUE: #1D3557
 
 body {
     margin: 0;
-    position: absolute;
-width: 720px;
-height: 343px;
-left: 0px;
-top: 0px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
 
-background: url(torshov.jpg);
 }
 
 img {
     width: 100px;
 }
+
+.hero {
+    background-image: url("images/torshov.jpg");
+    background-repeat: none;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 180px;
+}
+
+.visit-calgary {
+    width: 300px;
+    margin-left: 500px;
+    color: #fff;
+    font-size: 35px;
+    background-color: #457B9D;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.description {
+    border: none;
+     width: 700px;
+     margin-left: 300px;
+     font-size: 30px;
+     color: #fff;
+     margin-bottom: 80px;
+     background-color: #1D3557;
+}
+.activities {
+    background: #A8DADC;
+}
+
+.h3-activities {
+    color: #1D3557;
+    font-weight: 900;   
+}
+
+.activities-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px; 
+}
+
+
+#park {
+    border-radius: 60px; 
+}
+
+#theatre {
+    border-radius: 60px;
+}
+
+#sports {
+    border-radius: 60px;
+}
+
+.park-text {
+    display: block;
+}
+
+.theatre-text {
+    display: block;
+}
+
+.sports-text {
+    display: block;
+}
+
+.guide-section {
+    display: block;
+    border: 2px solid #A8DADC ;
+    margin: 30px 500px 40px 400px ;
+    padding: 0 8px;
+    background-color: #A8DADC; 
+    border-bottom: 4px solid #1D3557;
+}
+.guide-section > h3 {
+    font-weight: bolder;
+}
+
+
